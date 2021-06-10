@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 class ThermalPrinterBlue {
   static const MethodChannel _channel =
-  const MethodChannel('blue_thermal_printer_pokerweb');
+  const MethodChannel('thermal_printer_blue');
 
   /// Get android platform version.
   static Future<String> get platformVersion async {
